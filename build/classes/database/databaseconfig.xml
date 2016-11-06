@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataBaseConfiguration>
+	<HibernateConfigFile>database/hibernate.cfg.xml</HibernateConfigFile>
+	
+	<SolutionMappingFile>database/solucao.hbm.xml</SolutionMappingFile>
+	<SolutionClassName>br.ufam.rest.model.Solucao</SolutionClassName>
+	
+	<DescriptionMappingFile>database/descricao.hbm.xml</DescriptionMappingFile>
+	<DescriptionClassName>br.ufam.rest.model.Descricao</DescriptionClassName>
+	
+</DataBaseConfiguration>

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping default-lazy="false">
+	<class name="br.ufam.rest.model.Solucao" table="solucao">
+		<id name="solucaoId" column="id"></id>
+		<property name="diagnostico" column="diagnostico" />
+		<property name="solucao" column="solucao" />
+		<property name="palavrasChavesSolucao" column="palavras_chaves" />		
+		<property name="acaoImplementada" column="acao_implementada" />
+		<property name="solucaoImplementada" column="solucao_implementada" />		
+		<property name="efetividade" column="efetividade_acao_implementada" />
+		<property name="impactoPedagogico" column="impacto_pedagogico" />
+		<property name="custos" column="custos" />
+		<property name="atoresEnvolvidos" column="atores_envolvidos" />
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping default-lazy="false">
+	<class name="br.ufam.rest.model.Solucao" table="solucaoproblema">
+		<id name="solucaoId" column="id_solucaoProblema"></id>
+		<property name="diagnostico" column="diagnostico" />
+		<property name="acaoPedagogica" column="acaoPedagogica" />
+		<property name="objetoDeAprendizagem" column="objetoAprendizagem" />
+	</class>
+</hibernate-mapping>

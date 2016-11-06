@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping default-lazy="false">
+	<class name="br.ufam.rest.model.Descricao" table="descricaoproblema">
+		<id name="caseId" column="id_descProblema"></id>
+		<property name="tema" column="tema" />		
+		<property name="topico" column="topico" />
+		<property name="estiloDeAprendizagem" column="estiloAprendizagem" />
+		<property name="descricaoProblema" column="descrProblema" />			
+		<property name="naturezaProblema" column="naturezaProblema" />
+	</class>
+</hibernate-mapping>
