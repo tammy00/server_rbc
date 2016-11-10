@@ -12,7 +12,7 @@ import jcolibri.cbrcore.CaseComponent;
 public class Descricao implements CaseComponent{
 
 
-	int caseId;
+	int caseId; // skofse ksjekfjj
 	String tema; 
 	String topico; 
 	String estiloDeAprendizagem; 
