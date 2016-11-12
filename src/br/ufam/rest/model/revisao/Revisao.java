@@ -119,7 +119,7 @@ public class Revisao {
 	
 	
 		
-	public void salvarCaso(int _caseNumber,String _caseId, String _tema, String _topico, String _estiloDeAprendizagem, String _descricaoProblema,
+	public void salvarCaso(int _caseNumber, int _caseId, String _tema, String _topico, String _estiloDeAprendizagem, String _descricaoProblema,
 			String _naturezaProblema,String _diagnostico, String _acaoPedagogica, String objetoDeAprendizagem) {
 			
 			CBRCase _caso = casos.get(_caseNumber);
