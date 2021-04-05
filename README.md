@@ -1,4 +1,3 @@
 # ServerRBC
-Servidor java do RBC, que oferece serviços ao sistema acadêmico de IPC.
 
-Setando o Apache v7 no Eclipse, o servidor do outro sistema (o acadêmico) deve ouvir a porta 9090. 
+This is the CBR Component that runs with a web interface located in rbc_ipc repository. This is part of a project for the final term in Information Systems Course (UFAM).
